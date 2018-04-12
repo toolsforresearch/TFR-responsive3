@@ -1,0 +1,177 @@
+/******************
+    User custom CSS
+    ---------------
+
+    In this file you can add your own custom CSS
+    It will be loaded last, so you can override any other property.
+    Also, it will never be updated. So if you inheritate a core template and just add here some CSS, you'll still benefit of all the updates
+*/
+
+:root {
+    --body-background-color:#ccc;
+    --primary-color: green;
+    --radio-item-color:#444;
+    --radio-item-fill-color:green;
+    --checkbox-item-fill-color:green;
+    --question-background-color:#9b1006;
+    --question-text-color:white;
+    --navbar-background-color:darkgreen;
+}
+
+body{
+  font-family:"Libre Franklin","Helvetica Neue",helvetica, arial, sans-serif;
+  background-color:var(--body-background-color);
+}
+
+.navbar-inverse{
+  background-color:var(--navbar-background-color);
+}
+
+.question-container{
+  background-color:white;
+  border:none;
+}
+
+.question-container.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.space-col{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.group-title{
+  margin-bottom:1em;
+}
+
+.question-title-container{
+  font-weight:bold;
+  color:var(--question-text-color);
+  background:var(--primary-color);
+}
+
+.question-valid-container{
+  background: lightgreen;
+}
+
+.ls-question-help, .ls-questionhelp {
+  margin-top: 5px;
+}
+
+.answer-container{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.ls-answers{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+.btn-primary{
+  background:#eee;
+  color:#444;
+  border:1px solid #ddd;
+}
+
+li{
+  
+  overflow:auto;
+}
+
+.btn-primary.active, 
+.btn-primary.active:hover, 
+.btn-primary:active:hover, 
+.button-primary:focus, 
+.button-primary.focus, 
+.btn-primary.active.focus,
+.btn-primary:hover{
+  background-color:var(--primary-color);
+  border:none;
+  -webkit-box-shadow: none;
+  color:white;
+  box-shadow: none;
+}
+
+.list-radio .radio-item {
+  position: relative;
+  padding: 0 6px;
+  padding-left:0;
+  margin: 10px 0 0;
+}
+
+.list-radio .radio-item input[type='radio'] {
+  display: none;
+}
+
+.list-radio .radio-item label {
+  color: #666;
+  font-weight: normal;
+  padding-left:0;
+}
+
+.list-radio .radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin: 0 5px 0 0;
+  border: 1px solid var(--radio-item-color);
+  background-color: transparent;
+}
+
+.list-radio .radio-item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  content: " ";
+}
+
+.list-radio .radio-item label::after{
+  margin-left:-6px;
+  background-color:var(--radio-item-fill-color);
+}
+
+.list-radio  .ls-answers.radio-list li:first-child{
+  margin-top:0;
+}
+
+ul.slider-list li:nth-child(odd){
+  background:#eee;
+}
+
+.checkbox-item label::after{
+  color:white;
+  background-color:var(--checkbox-item-fill-color);
+}
+
+.no-tooltip .tooltip{
+  display:none;
+}
+
+.slider-list li.form-group{
+  margin-bottom:0;
+  padding-bottom:15px;
+}
+
+.table-bordered,
+.table-bordered > tbody >tr > th,
+.table-bordered > tbody >tr > td,
+.table-bordered > thead >tr > th,
+.table-bordered > thead >tr > td{
+  border:none;
+}
+
+.table-bordered thead tr{
+  border-top:1px solid #eee;
+}
+
+.table-bordered tr{
+  border-bottom:1px solid #eee;
+}
