@@ -17,6 +17,11 @@ We do not guaranty anything, but we will sincerely look at issue tickets.
 
 Feel free to adapt to your needs, just tell us what you improved.
 
+# Features
+* usage of ccs variables for colors in custom.css, making it easier to adapt colors
+* full width on small displays
+* usage of Libre Franklin font (free Google font)
+
 # Next steps
 * discuss improvements on vanilla theme
 * make workarounds for peculiarities in vanilla theme
