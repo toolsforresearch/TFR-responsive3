@@ -22,3 +22,5 @@ Feel free to adapt to your needs, just tell us what you improved.
 * make workarounds for peculiarities in vanilla theme
 * extend the theme further with helper classes that enhance questions when you add the class to the question
 
+# Privacy thing
+This theme uses Google fonts. We needed that for a specific customer. This will be taken out later.
