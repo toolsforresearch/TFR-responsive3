@@ -16,3 +16,9 @@ Please help us wit the following:
 We do not guaranty anything, but we will sincerely look at issue tickets.
 
 Feel free to adapt to your needs, just tell us what you improved.
+
+# Next steps
+* discuss improvements on vanilla theme
+* make workarounds for peculiarities in vanilla theme
+* extend the theme further with helper classes that enhance questions when you add the class to the question
+
