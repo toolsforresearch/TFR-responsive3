@@ -70,6 +70,9 @@ body{
   padding-bottom:0px;
 }
 
+.progress{
+  margin-top:20px;
+}
 
 .btn-primary{
   background:#eee;
