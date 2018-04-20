@@ -10,17 +10,17 @@
 <config>
     <!-- Those metadata are displayed in the theme configuration page.  -->
     <metadata>
-        <name>tfr_umcergocoach</name>
-        <title>Bootstrap Vanilla</title>
+        <name>tfr_responsive</name>
+        <title>TFR Responsive</title>
         <creationDate/>
-        <author>admin</author>
+        <author>Tammo ter Hark</author>
         <authorEmail>tammo@kleinestappen.nl</authorEmail>
-        <authorUrl>http://www.limesurvey.org</authorUrl>
-        <copyright>Copyright (C) 2005 - 2016 LimeSurvey Gmbh, Inc. All rights reserved.</copyright>
+        <authorUrl>https://www.toolsforresearch.com</authorUrl>
+        <copyright>Copyright (C) 2018 Tools for Research BV. All rights reserved.</copyright>
         <license>GNU General Public License version 2 or later</license>
-        <version>3.0</version>
+        <version>0.1</version>
         <apiVersion>3</apiVersion>
-        <description><![CDATA[<strong>LimeSurvey Bootstrap Vanilla Survey Theme</strong><br>A clean and simple base that can be used by developers to create their own Bootstrap based theme.]]></description>
+        <description><![CDATA[<strong>TFR Responsive theme, first implementation based on LimeSurvey vanilla Bootstrap.</strong>]]></description>
         <last_update/>
     <extends>vanilla</extends></metadata>
 
