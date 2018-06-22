@@ -13,7 +13,7 @@ Please help us wit the following:
 * do things look ugly?
 * are you missing specific features?
 
-We do not guaranty anything, but we will sincerely look at issue tickets.
+We do not guarantee anything, but we will sincerely look at issue tickets.
 
 Feel free to adapt to your needs, just tell us what you improved.
 
