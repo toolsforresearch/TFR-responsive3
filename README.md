@@ -20,12 +20,11 @@ Feel free to adapt to your needs, just tell us what you improved.
 # Features
 * usage of ccs variables for colors in custom.css, making it easier to adapt colors
 * full width on small displays
-* usage of Libre Franklin font (free Google font)
+* usage of Roboto font, self hosted in /fonts directory
 
 # Next steps
 * discuss improvements on vanilla theme
 * make workarounds for peculiarities in vanilla theme
 * extend the theme further with helper classes that enhance questions when you add the class to the question
 
-# Privacy thing
-This theme uses Google fonts. We needed that for a specific customer. This will be taken out later.
+
