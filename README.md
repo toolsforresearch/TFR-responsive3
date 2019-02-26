@@ -1,7 +1,7 @@
-# LS3-TFR-theme01
+# TFR-responsive3
 First attempt to develop theme for Limesurvey 3
 
-April 2018: we now think that LimeSurvey 3.x.x is getting more and more stable.
+2019: we now think that LimeSurvey 3.x.x is getting more and more stable.
 
 We started to experiment with the much wanted feature of extending the Vanilla template. Of course we hoped that the twig files that riside in the vanilla template are so "dry" and well formed, that we only have to adapt the CSS, but we are not that far yet.
 
