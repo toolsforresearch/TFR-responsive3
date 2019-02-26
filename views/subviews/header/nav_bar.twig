@@ -19,7 +19,8 @@
 
 <!-- Bootstrap Navigation Bar -->
 {% if(aSurveyInfo.class.navbar) %}
-<div class="navbar navbar-inverse navbar-fixed-top" {{ aSurveyInfo.attr.navbar }}>
+
+<div class="navbar " {{ aSurveyInfo.attr.navbar }}><div class="container"><div class="row">
     <div class="{{ aSurveyInfo.class.navbarheader }}  " {{ aSurveyInfo.attr.navbarheader }} >
         <button type="button" class="{{ aSurveyInfo.class.navbartoggle }}" {{ aSurveyInfo.attr.navbartoggle }}  >
             <span class="sr-only">Toggle navigation</span>
@@ -48,4 +49,5 @@
         </ul>
     </div>
 </div>
+</div></div>
 {% endif %}
